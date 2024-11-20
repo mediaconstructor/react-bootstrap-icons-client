@@ -1,5 +1,10 @@
 {
-  "name": "react-bootstrap-icons-client",
+  "name": "@mediaconstructor/react-bootstrap-icons-client",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/mediaconstructor/react-bootstrap-icons-client"
+  },
+  "homepage": "https://mediaconstructor.de/",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -11,5 +16,12 @@
     "ts": "^0.2.2",
     "@types/node": "^20",
     "@types/react": "^18.3.12"
-  }
+  },
+  "description": "Clone the repository and execute `node generate.mjs`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arvid Hoppe",
+  "license": "ISC"
 }
