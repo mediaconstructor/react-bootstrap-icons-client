@@ -5,7 +5,7 @@
     "url": "https://github.com/mediaconstructor/react-bootstrap-icons-client"
   },
   "homepage": "https://mediaconstructor.de/",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "type": "module",
   "dependencies": {
