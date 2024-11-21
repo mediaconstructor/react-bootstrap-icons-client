@@ -7,7 +7,7 @@ const template = (iconName) =>
 import React from "react";
 import {IconProps, ${iconName}} from "react-bootstrap-icons";
 
-export const CI_${iconName} : React.FC<IconProps> = ({...props}) => {
+export const CI_${iconName} : React.FC<IconProps> = (props) => {
     return (
         <>
             <${iconName} {...props}/>

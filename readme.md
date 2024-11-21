@@ -8,7 +8,7 @@ Install the package with `npm install @mediaconstructor/react-bootstrap-icons-cl
 
 ## Contributing
 ### How to build
-Clone the repository and execute `node generate.mjs`
+Clone the repository and execute `npm run generate`
 
 ## Icons
 You can use all the Bootstrap-Icons with the CI_ Prefix e.g.:

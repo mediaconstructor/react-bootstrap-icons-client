@@ -5,7 +5,7 @@
     "url": "https://github.com/mediaconstructor/react-bootstrap-icons-client"
   },
   "homepage": "https://mediaconstructor.de/",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "type": "module",
   "dependencies": {
@@ -13,18 +13,28 @@
     "react-bootstrap-icons": "^1.11.4"
   },
   "devDependencies": {
-    "ts": "^0.2.2",
     "@types/node": "^20",
-    "@types/react": "^18.3.12"
+    "@types/react": "^18.3.12",
+    "ts": "^0.2.2",
+    "typescript": "^5.6.3"
   },
   "description": "Clone the repository and execute `node generate.mjs`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate" : "node generate.mjs",
+    "deploy" : "npm publish --access public"
   },
   "author": "Arvid Hoppe",
   "license": "ISC",
   "keywords": [
-    "nextjs", "bootstrap", "icons", "bootstrap-icons", "react", "bootsrap-icons-react", "bootstrap-icons-react-client", "bootstrap-icons-nextjs"
+    "nextjs",
+    "bootstrap",
+    "icons",
+    "bootstrap-icons",
+    "react",
+    "bootsrap-icons-react",
+    "bootstrap-icons-react-client",
+    "bootstrap-icons-nextjs"
   ]
 }
