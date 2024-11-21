@@ -23,5 +23,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arvid Hoppe",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "nextjs", "bootstrap", "icons", "bootstrap-icons", "react", "bootsrap-icons-react", "bootstrap-icons-react-client", "bootstrap-icons-nextjs"
+  ]
 }
